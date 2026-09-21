@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "push": "git remote set-url origin https://github.com && git push -u origin main"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
